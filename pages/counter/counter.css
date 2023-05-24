@@ -1,0 +1,18 @@
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 162, 116, 180;
+    --background-end-rgb: 255, 255, 220;
+  }
+  
+  .logo-container {
+    animation: logoAnimation 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes logoAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
