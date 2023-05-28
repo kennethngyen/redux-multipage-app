@@ -62,11 +62,11 @@ const PlayerData = () => {
     
     axios.request(options).then(function (response) {
       console.log(response.data);
-      setPlayers(response.data.data)
+      setPlayers(response.data.data) //just set the object to this data using state
     }).catch(function (error) {
       console.error(error);
     });
-  }, [])
+  }, []) //notice the empty array at use effect
   return (
     <div className="text-black flex flex-col justify-center items-center">
       <h1 className="text-3xl">2022 NBA Postseason Player Data</h1>

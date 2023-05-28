@@ -4,7 +4,9 @@ const Page1 = () => {
 
   return (
     <div className="text-black">
+      <div className="w-full grid">
       <PlayerData/>
+      </div>
     </div>
   );
 };

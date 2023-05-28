@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@mui/material";
 
-type Props = {};//
+type Props = {};
 
 const NavBar = (props: Props) => {
   return (
